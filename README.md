@@ -60,15 +60,3 @@ As this is a demonstration project, contributions are welcome, especially for:
 * A more robust SRT parser.
 * Dynamic video element selection logic.
 * Adding support for a configuration page.
-
----
-
-## 🌟 Polishing Your GitHub Repository
-
-To make your repository look professional and easy for others to use and contribute to, consider these five elements:
-
-### 1. License File (Critical for Open Source)
-Create a file named **`LICENSE`** (no extension) in the root of your repository. Since this is a small utility, the **MIT License** is a common and friendly choice. It allows anyone to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
-
-### 2. `.gitignore` File
-Create a file named **`.gitignore`** in the root directory. This prevents unnecessary files from being tracked by Git. For this project, a basic template is sufficient:
