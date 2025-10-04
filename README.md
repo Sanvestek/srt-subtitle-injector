@@ -1,4 +1,4 @@
-# Simple Subtitle Injector (Chrome Extension)
+# Simple SRT Subtitle Injector (Chrome Extension)
 
 A minimal, proof-of-concept Chrome Extension designed to inject **locally stored SRT subtitles** directly into any standard HTML5 video player, including those embedded within iframes. This extension leverages the native `HTMLMediaElement` API to add a new subtitle track, integrating cleanly into the player's existing controls rather than relying on a custom, monitored overlay.
 
