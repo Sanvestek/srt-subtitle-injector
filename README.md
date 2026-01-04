@@ -19,7 +19,7 @@ Since this is an **unpacked Chrome Extension**, follow these steps to test it in
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Simple-Subtitle-Injector.git](https://github.com/YOUR_USERNAME/Simple-Subtitle-Injector.git)
+    git clone https://github.com/Sanvestek/Simple-Subtitle-Injector.git
     ```
 2.  **Open Chrome Extensions:**
     * Navigate to `chrome://extensions` in your browser.
