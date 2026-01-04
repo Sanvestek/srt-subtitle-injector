@@ -2,10 +2,23 @@
 <html>
 <head>
     <title>Sub Injector</title>
+    <style>
+        body { width: 220px; font-family: sans-serif; padding: 10px; }
+        .sync-section { margin-top: 15px; padding-top: 10px; border-top: 1px solid #ccc; }
+        input[type="number"] { width: 60px; }
+        #status { font-size: 0.8em; color: #555; }
+    </style>
 </head>
 <body>
     <h3>Upload SRT Subtitle</h3>
     <input type="file" id="srtFile" accept=".srt">
+    
+    <div class="sync-section">
+        <label for="shiftAmount">Shift (seconds):</label><br>
+        <input type="number" id="shiftAmount" step="0.1" value="0">
+        <button id="applyShift">Sync & Apply</button>
+    </div>
+
     <p id="status"></p>
 
     <script src="popup.js"></script>
